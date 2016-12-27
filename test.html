@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8" />
+</head>
+<body>
+	<br/>
+	<a href="/dropDownCollectionTest.html">Visit DropDown page</a>
+	<br/>
+	<br/>
+	<a href="/forms.html">Visit froms page</a>
+	<br/>
+	<h1>Some elements</h1>
+	<br/>
+	Enter context name: <input id='contextName'/>
+	<button id='contextApi' title="click for context change" onclick='callContextApi();'>Call ContextChange Api</button>
+	<input type='button' id='connectionType' title="click for connection type" onclick='getConnectionType();' value='Get navigator.connection type' />
+	<br/>
+    <button id='calcTime' title="Calculate time" onclick="calcTime();">Calc load times</button>
+    <input type="text" id="calcResult">
+    <br/>
+	Password field: <input id='pass' type='password'/>
+	<br/>
+	Email field: <input id='email' type='email' title="email address"/>
+	<br/>
+	<input type='checkbox' value='yehuda' checked=true />
+	<input type='button' id='btn' checked='true' value='input button' />
+	<br/>
+	<input type='text' id='txt' value='input text' />
+	<br/>
+	<input id='r1' type="radio" name="gender" value="male" checked> Male<br>
+	<input id='r2' type="radio" name="gender" value="female"> Female<br>
+	<input id='r3' type="radio" name="gender" value="other"> Other <br>
+	<br/>
+	<input id='date' type="date" />
+	<br/>
+	<input id='dateTimeL' type="datetime-local" />
+	<br/>
+	<input id='month' type="month" />
+	<br/>
+
+	
+	<iframe id='iframe1'src="postmessage_iframe.html" ></iframe>
+	<select id="compressBy">
+	    <option value="protobuf">protobuf</option>
+	    <option value="msgpack">msgpack</option>
+	    <option value="jsonh">jsonh</option>
+	</select>
+	<h6 id="compressRatio">
+
+	</h6>
+	<br/>
+	<textarea rows="25" cols="100" id="compressTA">
+
+	</textarea>
+
+	<br/>
+	
+</body>
+</html>

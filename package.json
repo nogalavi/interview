@@ -1,0 +1,25 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yehudasabag/interview.git"
+  },
+  "author": "Yehuda Sabag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yehudasabag/interview/issues"
+  },
+  "homepage": "https://github.com/yehudasabag/interview#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
